@@ -1,0 +1,505 @@
+{
+  "ambulances": [
+    {
+      "id": "amb-001",
+      "vehicleNumber": "AMB-101",
+      "licensePlate": "AB-123-CD",
+      "status": "AVAILABLE",
+      "currentLocation": {
+        "latitude": 33.5731,
+        "longitude": -7.5898
+      },
+      "heading": 45,
+      "baseStation": "Casablanca Central",
+      "equipment": [
+        {
+          "id": "eq-001",
+          "type": "DEFIBRILLATOR",
+          "name": "Défibrillateur automatique",
+          "isOperational": true
+        },
+        {
+          "id": "eq-002",
+          "type": "OXYGEN",
+          "name": "Bouteille O2 - 5L",
+          "isOperational": true
+        },
+        {
+          "id": "eq-003",
+          "type": "STRETCHER",
+          "name": "Brancard hydraulique",
+          "isOperational": true
+        }
+      ],
+      "crew": [
+        {
+          "id": "crew-001",
+          "firstName": "Ahmed",
+          "lastName": "Bennani",
+          "role": "DRIVER",
+          "phoneNumber": "+212-6-12-34-56-78"
+        },
+        {
+          "id": "crew-002",
+          "firstName": "Fatima",
+          "lastName": "El Alaoui",
+          "role": "PARAMEDIC",
+          "phoneNumber": "+212-6-23-45-67-89",
+          "certificationLevel": "Advanced"
+        }
+      ],
+      "lastUpdate": "2025-11-26T14:15:00Z"
+    },
+    {
+      "id": "amb-002",
+      "vehicleNumber": "AMB-102",
+      "licensePlate": "AB-456-EF",
+      "status": "BUSY",
+      "currentLocation": {
+        "latitude": 33.5892,
+        "longitude": -7.6031
+      },
+      "heading": 180,
+      "baseStation": "Casablanca Central",
+      "equipment": [
+        {
+          "id": "eq-004",
+          "type": "DEFIBRILLATOR",
+          "name": "Défibrillateur automatique",
+          "isOperational": true
+        },
+        {
+          "id": "eq-005",
+          "type": "OXYGEN",
+          "name": "Bouteille O2 - 5L",
+          "isOperational": true
+        },
+        {
+          "id": "eq-006",
+          "type": "ECG",
+          "name": "ECG portable",
+          "isOperational": true
+        }
+      ],
+      "crew": [
+        {
+          "id": "crew-003",
+          "firstName": "Karim",
+          "lastName": "Tahiri",
+          "role": "DRIVER",
+          "phoneNumber": "+212-6-34-56-78-90"
+        },
+        {
+          "id": "crew-004",
+          "firstName": "Sara",
+          "lastName": "Idrissi",
+          "role": "NURSE",
+          "phoneNumber": "+212-6-45-67-89-01",
+          "certificationLevel": "RN"
+        }
+      ],
+      "lastUpdate": "2025-11-26T14:20:00Z"
+    },
+    {
+      "id": "amb-003",
+      "vehicleNumber": "AMB-103",
+      "licensePlate": "AB-789-GH",
+      "status": "BUSY",
+      "currentLocation": {
+        "latitude": 33.552,
+        "longitude": -7.619
+      },
+      "heading": 270,
+      "baseStation": "Maarif Station",
+      "equipment": [
+        {
+          "id": "eq-007",
+          "type": "DEFIBRILLATOR",
+          "name": "Défibrillateur automatique",
+          "isOperational": true
+        },
+        {
+          "id": "eq-008",
+          "type": "OXYGEN",
+          "name": "Bouteille O2 - 10L",
+          "isOperational": true
+        },
+        {
+          "id": "eq-009",
+          "type": "VENTILATOR",
+          "name": "Ventilateur portable",
+          "isOperational": true
+        }
+      ],
+      "crew": [
+        {
+          "id": "crew-005",
+          "firstName": "Youssef",
+          "lastName": "Amrani",
+          "role": "DRIVER",
+          "phoneNumber": "+212-6-56-78-90-12"
+        },
+        {
+          "id": "crew-006",
+          "firstName": "Nadia",
+          "lastName": "Chakir",
+          "role": "DOCTOR",
+          "phoneNumber": "+212-6-67-89-01-23",
+          "certificationLevel": "MD - Emergency Medicine"
+        }
+      ],
+      "lastUpdate": "2025-11-28T11:16:49.577Z"
+    },
+    {
+      "id": "amb-004",
+      "vehicleNumber": "AMB-104",
+      "licensePlate": "AB-321-IJ",
+      "status": "MAINTENANCE",
+      "currentLocation": {
+        "latitude": 33.5731,
+        "longitude": -7.5898
+      },
+      "heading": 0,
+      "baseStation": "Casablanca Central",
+      "equipment": [
+        {
+          "id": "eq-010",
+          "type": "DEFIBRILLATOR",
+          "name": "Défibrillateur automatique",
+          "isOperational": false
+        },
+        {
+          "id": "eq-011",
+          "type": "OXYGEN",
+          "name": "Bouteille O2 - 5L",
+          "isOperational": true
+        }
+      ],
+      "crew": [],
+      "lastUpdate": "2025-11-26T10:00:00Z"
+    },
+    {
+      "id": "amb-005",
+      "vehicleNumber": "AMB-105",
+      "licensePlate": "AB-654-KL",
+      "status": "AVAILABLE",
+      "currentLocation": {
+        "latitude": 33.5445,
+        "longitude": -7.6782
+      },
+      "heading": 90,
+      "baseStation": "Ain Diab Station",
+      "equipment": [
+        {
+          "id": "eq-012",
+          "type": "DEFIBRILLATOR",
+          "name": "Défibrillateur automatique",
+          "isOperational": true
+        },
+        {
+          "id": "eq-013",
+          "type": "OXYGEN",
+          "name": "Bouteille O2 - 5L",
+          "isOperational": true
+        },
+        {
+          "id": "eq-014",
+          "type": "FIRST_AID_KIT",
+          "name": "Trousse premiers secours",
+          "isOperational": true
+        }
+      ],
+      "crew": [
+        {
+          "id": "crew-007",
+          "firstName": "Hassan",
+          "lastName": "Rami",
+          "role": "DRIVER",
+          "phoneNumber": "+212-6-78-90-12-34"
+        },
+        {
+          "id": "crew-008",
+          "firstName": "Lamia",
+          "lastName": "Ziani",
+          "role": "PARAMEDIC",
+          "phoneNumber": "+212-6-89-01-23-45",
+          "certificationLevel": "Basic"
+        }
+      ],
+      "lastUpdate": "2025-11-26T14:22:00Z"
+    },
+    {
+      "id": "amb-1764326307881",
+      "vehicleNumber": "AMB-106",
+      "licensePlate": "12345",
+      "status": "BUSY",
+      "baseStation": "Consequatur dolorem ",
+      "currentLocation": {
+        "latitude": 56,
+        "longitude": 51
+      },
+      "heading": 269,
+      "equipment": [
+        {
+          "id": "equip-1764326307881-0",
+          "type": "VENTILATOR",
+          "name": "Beau Noble",
+          "isOperational": true
+        },
+        {
+          "id": "equip-1764326307881-1",
+          "type": "FIRST_AID_KIT",
+          "name": "Nehru Blankenship",
+          "isOperational": false
+        }
+      ],
+      "crew": [
+        {
+          "id": "crew-1764326307881-0",
+          "firstName": "Nathaniel",
+          "lastName": "Fry",
+          "role": "DRIVER",
+          "phoneNumber": "0615514619"
+        },
+        {
+          "id": "crew-1764326307881-1",
+          "firstName": "Brian",
+          "lastName": "William",
+          "role": "PARAMEDIC",
+          "phoneNumber": "0615514619"
+        }
+      ],
+      "lastUpdate": "2025-12-01T19:29:25.457Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc-001",
+      "title": "Accident de la route - A3",
+      "description": "Collision entre deux véhicules sur l'autoroute A3, plusieurs blessés signalés",
+      "severity": "CRITICAL",
+      "status": "ASSIGNED",
+      "location": {
+        "street": "Autoroute A3, km 12",
+        "city": "Casablanca",
+        "postalCode": "20000",
+        "country": "Maroc",
+        "coordinates": {
+          "latitude": 33.5892,
+          "longitude": -7.6031
+        }
+      },
+      "patient": {
+        "firstName": "Mohammed",
+        "lastName": "Khalil",
+        "age": 35,
+        "gender": "M",
+        "phoneNumber": "+212-6-11-22-33-44",
+        "medicalNotes": "Traumatisme thoracique, difficultés respiratoires"
+      },
+      "assignedAmbulanceId": "amb-002",
+      "createdAt": "2025-11-26T14:05:00Z",
+      "assignedAt": "2025-11-26T14:06:00Z",
+      "estimatedArrivalTime": "2025-11-26T14:25:00Z",
+      "distance": 5.2,
+      "reportedBy": "Police Routière"
+    },
+    {
+      "id": "inc-002",
+      "title": "Malaise cardiaque - Boulevard Zerktouni",
+      "description": "Patient âgé présentant des douleurs thoraciques",
+      "severity": "HIGH",
+      "status": "ASSIGNED",
+      "location": {
+        "street": "Boulevard Zerktouni, n°45",
+        "city": "Casablanca",
+        "postalCode": "20100",
+        "country": "Maroc",
+        "coordinates": {
+          "latitude": 33.572,
+          "longitude": -7.632
+        }
+      },
+      "patient": {
+        "firstName": "Rachid",
+        "lastName": "Benjelloun",
+        "age": 68,
+        "gender": "M",
+        "phoneNumber": "+212-6-22-33-44-55",
+        "medicalNotes": "Antécédents cardiaques, sous traitement anticoagulant"
+      },
+      "createdAt": "2025-11-26T14:20:00Z",
+      "reportedBy": "Famille",
+      "assignedAmbulanceId": "amb-003",
+      "assignedAt": "2025-11-28T11:16:49.577Z",
+      "updatedAt": "2025-11-28T11:16:49.577Z",
+      "estimatedArrivalTime": "2025-11-28T11:19:49.577Z",
+      "distance": 2.53
+    },
+    {
+      "id": "inc-003",
+      "title": "Chute - Marché Central",
+      "description": "Personne âgée ayant chuté, suspicion de fracture",
+      "severity": "MEDIUM",
+      "status": "PENDING",
+      "location": {
+        "street": "Rue Chaouia, Marché Central",
+        "city": "Casablanca",
+        "postalCode": "20250",
+        "country": "Maroc",
+        "coordinates": {
+          "latitude": 33.595,
+          "longitude": -7.62
+        }
+      },
+      "patient": {
+        "firstName": "Aicha",
+        "lastName": "Mansouri",
+        "age": 72,
+        "gender": "F",
+        "phoneNumber": "+212-6-33-44-55-66",
+        "medicalNotes": "Douleur intense jambe droite, impossibilité de se relever"
+      },
+      "createdAt": "2025-11-26T14:22:00Z",
+      "reportedBy": "Témoin"
+    },
+    {
+      "id": "inc-004",
+      "title": "Intervention terminée - Ain Diab",
+      "description": "Transfert patient vers CHU Ibn Rochd",
+      "severity": "LOW",
+      "status": "COMPLETED",
+      "location": {
+        "street": "Corniche Ain Diab",
+        "city": "Casablanca",
+        "postalCode": "20100",
+        "country": "Maroc",
+        "coordinates": {
+          "latitude": 33.588,
+          "longitude": -7.665
+        }
+      },
+      "patient": {
+        "firstName": "Zineb",
+        "lastName": "Tazi",
+        "age": 29,
+        "gender": "F",
+        "phoneNumber": "+212-6-44-55-66-77",
+        "medicalNotes": "Contractions - Grossesse à terme"
+      },
+      "assignedAmbulanceId": "amb-003",
+      "createdAt": "2025-11-26T13:00:00Z",
+      "assignedAt": "2025-11-26T13:02:00Z",
+      "arrivedAt": "2025-11-26T13:15:00Z",
+      "completedAt": "2025-11-26T13:45:00Z",
+      "distance": 8.5,
+      "reportedBy": "Centre d'appel 141"
+    },
+    {
+      "id": "inc-1764320924535",
+      "title": "Magna earum ea moles",
+      "description": "Consectetur magnam e",
+      "severity": "CRITICAL",
+      "location": {
+        "street": "Ab ratione rerum aut",
+        "city": "Animi culpa est et ",
+        "postalCode": "34565",
+        "country": "Maroc",
+        "coordinates": {
+          "latitude": 37,
+          "longitude": 39
+        }
+      },
+      "patient": {
+        "id": "pat-1764320924535",
+        "firstName": "Alice",
+        "lastName": "Mullins",
+        "age": 67,
+        "gender": "F",
+        "phoneNumber": "+212612345678"
+      },
+      "reportedBy": "Opérateur",
+      "notes": "Vitae temporibus qua",
+      "status": "ASSIGNED",
+      "createdAt": "2025-11-28T09:08:44.535Z",
+      "updatedAt": "2025-12-01T19:29:25.457Z",
+      "assignedAmbulanceId": "amb-1764326307881",
+      "assignedAt": "2025-12-01T19:29:25.457Z",
+      "estimatedArrivalTime": "2025-12-03T09:46:25.457Z",
+      "distance": 2296.04
+    },
+    {
+      "id": "inc-1764322509943",
+      "title": "Adipisci tempor mole",
+      "description": "Labore laboris accus",
+      "severity": "LOW",
+      "location": {
+        "street": "Consequatur aliquam ",
+        "city": "Molestias magnam et ",
+        "postalCode": "22222",
+        "country": "Maroc",
+        "coordinates": {
+          "latitude": 60,
+          "longitude": 78
+        }
+      },
+      "patient": {
+        "id": "pat-1764322509943",
+        "firstName": "Tyler",
+        "lastName": "Sampson",
+        "age": 9,
+        "gender": "M",
+        "phoneNumber": "+212612345678"
+      },
+      "reportedBy": "Opérateur",
+      "notes": "Qui corrupti recusa",
+      "status": "PENDING",
+      "createdAt": "2025-11-28T09:35:09.943Z",
+      "updatedAt": "2025-11-28T09:35:09.943Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "log-001",
+      "timestamp": "2025-11-26T14:05:00Z",
+      "type": "INCIDENT_CREATED",
+      "incidentId": "inc-001",
+      "description": "Incident créé: Accident de la route - A3 (CRITICAL)",
+      "userId": "operator-01"
+    },
+    {
+      "id": "log-002",
+      "timestamp": "2025-11-26T14:06:00Z",
+      "type": "AMBULANCE_ASSIGNED",
+      "incidentId": "inc-001",
+      "ambulanceId": "amb-002",
+      "description": "Ambulance AMB-102 assignée à l'incident inc-001",
+      "userId": "operator-01"
+    },
+    {
+      "id": "log-003",
+      "timestamp": "2025-11-26T14:20:00Z",
+      "type": "INCIDENT_CREATED",
+      "incidentId": "inc-002",
+      "description": "Incident créé: Malaise cardiaque - Boulevard Zerktouni (HIGH)",
+      "userId": "operator-02"
+    },
+    {
+      "id": "log-004",
+      "timestamp": "2025-11-26T14:22:00Z",
+      "type": "INCIDENT_CREATED",
+      "incidentId": "inc-003",
+      "description": "Incident créé: Chute - Marché Central (MEDIUM)",
+      "userId": "operator-01"
+    },
+    {
+      "id": "log-005",
+      "timestamp": "2025-11-26T13:45:00Z",
+      "type": "INCIDENT_COMPLETED",
+      "incidentId": "inc-004",
+      "ambulanceId": "amb-003",
+      "description": "Incident terminé: Transfert patient vers CHU Ibn Rochd",
+      "userId": "operator-03"
+    }
+  ]
+}
